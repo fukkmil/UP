@@ -139,3 +139,80 @@ footer {
     color: #777;
     font-size: .9rem;
 }
+
+.table-history {
+    border: 1px solid #a8cfe5;
+    border-collapse: collapse;
+    background-color: #f0f8ff;
+}
+.table-history th,
+.table-history td {
+    border: 1px solid #a8cfe5;
+    padding: 8px;
+}
+.table-history th {
+    background-color: #b0d4f1;
+}
+
+.table-geo {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-geo th {
+    background-color: #d4efdf;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #a9dfbf;
+}
+.table-geo td {
+    background-color: #ebf5ee;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #a9dfbf;
+}
+
+.table-landmarks {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.table-landmarks th {
+    background-color: #fff5e6;
+    padding: 10px;
+    border: 1px solid #e6ccb3;
+    text-align: left;
+}
+.table-landmarks td {
+    background-color: #fffaf0;
+    padding: 10px;
+    border: 1px solid #e6ccb3;
+}
+
+.table-culture {
+    border-collapse: collapse;
+}
+.table-culture th {
+    background-color: #e8daef;
+    padding: 8px;
+    border: 1px solid #c39bd3;
+}
+.table-culture td {
+    background-color: #f5eef8;
+    padding: 8px;
+    border: 1px solid #c39bd3;
+    text-align: center;
+}
+
+.table-notable {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-notable th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+}
+.table-notable td {
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    background: url('../images/bg_cell.jpg') repeat;
+}
