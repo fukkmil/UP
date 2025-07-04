@@ -6,6 +6,38 @@
 html {
     scroll-behavior: smooth;
 }
+:root {
+    --color-bg:       #f9f9f9;
+    --color-foreground: #333;
+    --color-primary:   #0066cc;   /* ← здесь вы задаёте значение */
+    --color-secondary: #0088ee;
+    --color-hover:     #0055aa;
+}
+
+
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: var(--color-primary, #0066cc);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: block;
+    transition: transform .2s;
+}
+
+.to-top:hover {
+    background: var(--color-hover);
+    transform: translateY(-2px);
+}
+
 
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
