@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Чизкейк</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">Виды тортов</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="cake1.html">Медовик</a>
+        <a href="cake2.html">Наполеон</a>
+        <a href="cake3.html">Шоколадный</a>
+        <a href="cake4.html">Птичье молоко</a>
+        <a href="cake5.html" class="active">Чизкейк</a>
+    </nav>
+</header>
+<main>
+    <h1>Чизкейк</h1>
+    <div class="cake-info">
+        <input type="checkbox" id="modal-toggle">
+        <label for="modal-toggle">
+        <img src="images/cheesecake.png" alt="Чизкейк">
+        </label>
+        <p class="click-instruction">Нажмите на картинку, чтобы увидеть видео-рецепт</p>
+
+        <div class="description">
+            <p><strong>Чизкейк</strong> — сливочный творожный слой на песочной или овсяной основе.</p>
+        </div>
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <label for="modal-toggle" class="close-label">×</label>
+                <video controls autoplay>
+                    <source src="videos/cheesecake.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <section class="recipe">
+        <h2>Ингредиенты</h2>
+        <ul>
+            <li>Песочное печенье — 200 г</li>
+            <li>Масло сливочное — 80 г</li>
+            <li>Творожный сыр — 500 г</li>
+            <li>Сахар — 100 г</li>
+            <li>Яйца — 2 шт.</li>
+            <li>Сливки 33% — 100 мл</li>
+            <li>Ваниль — 1 ч. л.</li>
+        </ul>
+
+        <h2>Приготовление</h2>
+        <ol>
+            <li>Измельчите печенье, смешайте с растопленным маслом и утрамбуйте в форму.</li>
+            <li>Смешайте сыр, сахар, яйца, сливки и ваниль до однородности.</li>
+            <li>Вылейте массу на основу и выпекайте при 160 °C — 50 мин.</li>
+            <li>Дайте остыть в приоткрытой духовке, затем поставьте в холодильник минимум на 4 часа.</li>
+        </ol>
+    </section>
+</main>
+
+<footer>© 2025 Все права защищены.</footer>
+</body>
+</html>

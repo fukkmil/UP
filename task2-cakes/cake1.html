@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медовик</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">Виды тортов</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="cake1.html" class="active">Медовик</a>
+        <a href="cake2.html">Наполеон</a>
+        <a href="cake3.html">Шоколадный</a>
+        <a href="cake4.html">Птичье молоко</a>
+        <a href="cake5.html">Чизкейк</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Медовик</h1>
+    <div class="cake-info">
+        <input type="checkbox" id="modal-toggle">
+        <label for="modal-toggle">
+            <img src="images/medovik.jpg" alt="Медовик">
+        </label>
+        <p class="click-instruction">Нажмите на картинку, чтобы увидеть видео-рецепт</p>
+        <div class="description">
+            <p><strong>Медовик</strong> — классический русский торт из тонких коржей на мёде с нежным крем-чизом.</p>
+        </div>
+
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <label for="modal-toggle" class="close-label">×</label>
+                <video controls autoplay>
+                    <source src="videos/medovik.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <section class="recipe">
+        <h2>Ингредиенты</h2>
+        <ul>
+            <li>Мёд — 3 ст. л.</li>
+            <li>Сахар — 1 ст.</li>
+            <li>Яйца — 2 шт.</li>
+            <li>Масло сливочное — 100 г</li>
+            <li>Мука — 3–3,5 ст.</li>
+        </ul>
+        <h2>Приготовление</h2>
+        <ol>
+            <li>Растопите мёд, сахар и масло.</li>
+            <li>Добавьте яйца и муку, замесите тесто.</li>
+            <li>Выпеките коржи и соберите торт с кремом.</li>
+        </ol>
+    </section>
+</main>
+
+<footer>© 2025 Все права защищены.</footer>
+</body>
+</html>

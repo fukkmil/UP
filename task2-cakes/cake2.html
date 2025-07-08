@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Наполеон</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">Виды тортов</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="cake1.html">Медовик</a>
+        <a href="cake2.html" class = "active">Наполеон</a>
+        <a href="cake3.html">Шоколадный</a>
+        <a href="cake4.html">Птичье молоко</a>
+        <a href="cake5.html">Чизкейк</a>
+    </nav>
+</header>
+<main>
+    <h1>Наполеон</h1>
+    <div class="cake-info">
+        <input type="checkbox" id="modal-toggle">
+        <label for="modal-toggle">
+            <img src="images/napoleon.webp" alt="Торт Наполеон"></a>
+        </label>
+        <p class="click-instruction">Нажмите на картинку, чтобы увидеть видео-рецепт</p>
+
+        <div class="description">
+            <p><strong>Наполеон</strong> — многослойный торт из слоёного теста и заварного крема.</p>
+            <p>Идеален для праздников благодаря контрасту хрустящих коржей и нежного крема.</p>
+        </div>
+
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <label for="modal-toggle" class="close-label">×</label>
+                <video controls autoplay>
+                    <source src="videos/napoleon.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <section class="recipe">
+        <h2>Ингредиенты</h2>
+        <ul>
+            <li>Слоёное тесто — 1 уп. (или 800 г домашнего)</li>
+            <li>Молоко — 500 мл</li>
+            <li>Яйца — 3 шт.</li>
+            <li>Сахар — 150 г</li>
+            <li>Мука — 3 ст. л.</li>
+            <li>Ванильный экстракт — 1 ч. л.</li>
+            <li>Масло сливочное — 100 г</li>
+        </ul>
+
+        <h2>Приготовление</h2>
+        <ol>
+            <li>Раскатайте тесто в 8–10 коржей и выпекайте при 200 °C по 7–8 мин. до золотистого цвета.</li>
+            <li>Для крема взбейте яйца с сахаром и мукой, влейте тёплое молоко, варите до загустения.</li>
+            <li>Снимите с огня, добавьте масло и ваниль, остудите.</li>
+            <li>Соберите торт, промазывая каждый корж кремом. Оставшийся крем нанесите снаружи.</li>
+            <li>Охладите минимум 4 часа.</li>
+        </ol>
+    </section>
+</main>
+
+<footer>© 2025 Все права защищены.</footer>
+</body>
+</html>

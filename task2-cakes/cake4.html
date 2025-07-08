@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Торт «Птичье молоко»</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">Виды тортов</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="cake1.html">Медовик</a>
+        <a href="cake2.html">Наполеон</a>
+        <a href="cake3.html">Шоколадный</a>
+        <a href="cake4.html" class="active">Птичье молоко</a>
+        <a href="cake5.html">Чизкейк</a>
+    </nav>
+</header>
+<main>
+    <h1>Торт «Птичье молоко»</h1>
+    <div class="cake-info">
+        <input type="checkbox" id="modal-toggle">
+        <label for="modal-toggle">
+            <img src="images/ptichye_moloko.webp" alt="Торт Птичье молоко">
+        </label>
+        <p class="click-instruction">Нажмите на картинку, чтобы увидеть видео-рецепт</p>
+
+        <div class="description">
+            <p><strong>«Птичье молоко»</strong> — нежный бисквит с суфлеобразной прослойкой и шоколадной глазурью.</p>
+        </div>
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <label for="modal-toggle" class="close-label">×</label>
+                <video controls autoplay>
+                    <source src="videos/ptichie.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <section class="recipe">
+        <h2>Ингредиенты</h2>
+        <ul>
+            <li>Бисквит (готовый или домашний) — 1 корж</li>
+            <li>Желатин — 20 г</li>
+            <li>Сахар — 150 г</li>
+            <li>Белки — 3 шт.</li>
+            <li>Ванилин — щепотка</li>
+            <li>Шоколад для глазури — 150 г</li>
+            <li>Масло для глазури — 30 г</li>
+        </ul>
+
+        <h2>Приготовление</h2>
+        <ol>
+            <li>Желатин набухает в 50 мл холодной воды.</li>
+            <li>Белки взбейте с сахаром до устойчивых пиков, аккуратно введите ванилин и распущенный желатин.</li>
+            <li>Выложите суфле на бисквит, разровняйте и охладите до застывания.</li>
+            <li>Растопите шоколад с маслом, залейте форму, дайте схватиться.</li>
+            <li>Перед подачей охладите ещё 1 час.</li>
+        </ol>
+    </section>
+</main>
+
+<footer>© 2025 Все права защищены.</footer>
+</body>
+</html>
